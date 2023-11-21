@@ -1,5 +1,6 @@
 from flask import Flask,render_template
-from database import load_jobs_from_db
+# from database import load_jobs_from_db
+from db import load_jobs_from_db
 app = Flask(__name__)
 
 
