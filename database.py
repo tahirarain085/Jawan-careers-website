@@ -15,6 +15,8 @@ def load_jobs_from_db():
         jobs = [dict(zip(result.keys(), row)) for row in rows]
         return jobs
 
+        
+    
 
 # def load_jobs_from_db():
 #     with engine.connect() as conn:
