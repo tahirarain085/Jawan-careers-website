@@ -1,5 +1,4 @@
 from sqlalchemy import create_engine,text
-from collections import OrderedDict
 
 db_connection_string ="mysql+mysqlconnector://root:ilovepakistan@localhost:3306/jawancareers"
 
