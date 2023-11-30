@@ -18,7 +18,8 @@ def home():
 
 def list_jobs():
     jobs = load_jobs_from_db()
-    return jsonify(jobs)
+    return jsonify( jobs)
+
 
 
 
